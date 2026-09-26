@@ -1,4 +1,4 @@
-# Propuesta individual
+# Propuesta individual 
 
 **Nombre:** Ricardo Andres Escobar Correa
 
