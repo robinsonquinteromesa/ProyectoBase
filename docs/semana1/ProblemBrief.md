@@ -60,7 +60,7 @@ Un ecosistema territorial que conecta empresas, instituciones, iglesias, colegio
 |---|---|---|---|
 | Ricardo Andrés Escobar Correa | `ricardo-escobar` | Líder de problema social y usuario | Sección "Problema y evidencia" y "Usuario y actores" |
 | Sebastián | `sebastian` | Líder de flujo ambiental y logístico | Secciones "Flujo actual de valor" y "Fricciones identificadas" |
-| Robinson Quintero Mesa | `robinson-quintero` | Líder de oportunidad y blockchain | Secciones "Oportunidad e hipótesis", "Criterio de pertinencia" y "Supuestos y riesgos" |
+| Robinson Quintero Mesa | `robinsonquinteromesa` | Líder de oportunidad y blockchain | Secciones "Oportunidad e hipótesis", "Criterio de pertinencia" y "Supuestos y riesgos" |
 | Santiago Franco | `santiago-franco` | Líder de redes comunitarias y población vulnerable | Sección "Usuario y actores" (enfoque en población vulnerable) |
 | Gustavo Arcila | `gustavo-arcila` | Líder de educación, investigación aplicada y articulación academia-territorio | Sección "Flujo actual de valor" (enfoque educativo) y revisión de "Oportunidad e hipótesis" |
 
