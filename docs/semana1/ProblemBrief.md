@@ -8,7 +8,7 @@
 
 Las empresas y ciudadanos generan excedentes de alimentos, textiles y materiales reciclables que terminan como residuos, mientras personas en situación de calle, adultos mayores sin pensión, familias vulnerables y damnificados por el terremoto del 10 de agosto de 2026 en Colombia no tienen acceso estable a alimentos ni vestuario, y no existe un mecanismo confiable que conecte esos excedentes con quienes los necesitan.
 
-**Propuesto por:** Persona A (nombre del integrante), enriquecido con los aportes de Persona B (dimensión ambiental) y Persona C (dimensión de emergencia y trazabilidad).
+**Propuesto por:** Ricardo Andres Escobar Correa, Sebastian (dimensión ambiental) y Robinson Quintero Mesa (dimensión de emergencia y trazabilidad).
 
 ### Por qué elegimos este
 
@@ -28,7 +28,7 @@ Además, el problema es de **alto impacto social, ambiental y económico**, y se
 
 | Propuesta | Quién la propuso | Motivo del descarte |
 |---|---|---|
-| Sistema de trueque de residuos reciclables entre empresas | Persona B | Se descartó porque no aborda la dimensión social ni la urgencia humanitaria del terremoto. |
+| Sistema de trueque de residuos reciclables entre empresas | Sebastian | Se descartó porque no aborda la dimensión social ni la urgencia humanitaria del terremoto. |
 | Plataforma de donaciones económicas empresariales con certificación tributaria | Robinson Quintero Mesa | Se descartó como problema principal porque es una consecuencia del problema mayor, no el problema raíz. Se integró como componente de la solución. |
 | Red de apoyo para personas mayores sin pensión | Ricardo Andres Escobar Correa | Se descartó como problema único porque dejaba por fuera la dimensión ambiental y la trazabilidad de recursos. Se integró como parte del problema social. |
 | Sistema de monitoreo de contaminación de quebradas | Persona B | Se descartó porque es un síntoma, no la causa raíz. La causa raíz es la falta de conexión entre residuos y aprovechamiento. |
@@ -57,9 +57,9 @@ Un ecosistema territorial que conecta empresas, instituciones, iglesias y ciudad
 
 | Integrante | Usuario GitHub | Rol | Responsable de |
 |---|---|---|---|
-| Persona A | `persona-a` | Líder de problema social y usuario | Sección "Problema y evidencia" y "Usuario y actores" |
-| Persona B | `persona-b` | Líder de flujo ambiental y fricciones | Secciones "Flujo actual de valor" y "Fricciones identificadas" |
-| Persona C | `persona-c` | Líder de oportunidad y blockchain | Secciones "Oportunidad e hipótesis", "Criterio de pertinencia" y "Supuestos y riesgos" |
+| Ricardo Andres Escobar Correa | `persona-a` | Líder de problema social y usuario | Sección "Problema y evidencia" y "Usuario y actores" |
+| Sebastian | `persona-b` | Líder de flujo ambiental y fricciones | Secciones "Flujo actual de valor" y "Fricciones identificadas" |
+| Robinson Quintero Mesa | `persona-c` | Líder de oportunidad y blockchain | Secciones "Oportunidad e hipótesis", "Criterio de pertinencia" y "Supuestos y riesgos" |
 
 **Responsable de entregas:** Persona A (coordinación general y carga en Apex).
 **Canal de coordinación interna:** WhatsApp + GitHub Issues.
