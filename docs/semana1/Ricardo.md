@@ -6,7 +6,7 @@
 
 ---
 
-## El problema
+## El problema 
 
 > El problema en una sola frase, sin mencionar blockchain.
 
