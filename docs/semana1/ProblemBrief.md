@@ -29,8 +29,8 @@ Además, el problema es de **alto impacto social, ambiental y económico**, y se
 | Propuesta | Quién la propuso | Motivo del descarte |
 |---|---|---|
 | Sistema de trueque de residuos reciclables entre empresas | Persona B | Se descartó porque no aborda la dimensión social ni la urgencia humanitaria del terremoto. |
-| Plataforma de donaciones económicas empresariales con certificación tributaria | Persona C | Se descartó como problema principal porque es una consecuencia del problema mayor, no el problema raíz. Se integró como componente de la solución. |
-| Red de apoyo para personas mayores sin pensión | Persona A | Se descartó como problema único porque dejaba por fuera la dimensión ambiental y la trazabilidad de recursos. Se integró como parte del problema social. |
+| Plataforma de donaciones económicas empresariales con certificación tributaria | Robinson Quintero Mesa | Se descartó como problema principal porque es una consecuencia del problema mayor, no el problema raíz. Se integró como componente de la solución. |
+| Red de apoyo para personas mayores sin pensión | Ricardo Andres Escobar Correa | Se descartó como problema único porque dejaba por fuera la dimensión ambiental y la trazabilidad de recursos. Se integró como parte del problema social. |
 | Sistema de monitoreo de contaminación de quebradas | Persona B | Se descartó porque es un síntoma, no la causa raíz. La causa raíz es la falta de conexión entre residuos y aprovechamiento. |
 
 ### Cómo tomamos la decisión
