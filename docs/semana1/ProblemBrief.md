@@ -59,7 +59,7 @@ Un ecosistema territorial que conecta empresas, instituciones, iglesias y ciudad
 |---|---|---|---|
 | Ricardo Andres Escobar Correa | `persona-a` | Líder de problema social y usuario | Sección "Problema y evidencia" y "Usuario y actores" |
 | Sebastian | `persona-b` | Líder de flujo ambiental y fricciones | Secciones "Flujo actual de valor" y "Fricciones identificadas" |
-| Robinson Quintero Mesa | `persona-c` | Líder de oportunidad y blockchain | Secciones "Oportunidad e hipótesis", "Criterio de pertinencia" y "Supuestos y riesgos" |
+| Robinson Quintero Mesa | `robinsonquinteromesa` | Líder de oportunidad y blockchain | Secciones "Oportunidad e hipótesis", "Criterio de pertinencia" y "Supuestos y riesgos" |
 
 **Responsable de entregas:** Persona A (coordinación general y carga en Apex).
 **Canal de coordinación interna:** WhatsApp + GitHub Issues.
