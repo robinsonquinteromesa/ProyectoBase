@@ -1,8 +1,8 @@
 # Propuesta individual
 
-**Nombre:** Escribe aquí tu nombres
+**Nombre:** Robinson Quintero Mesa
 
-**Usuario de GitHub:** Escribe aquí tu usuario
+**Usuario de GitHub:** robinsonquinteromesa
 
 ---
 
