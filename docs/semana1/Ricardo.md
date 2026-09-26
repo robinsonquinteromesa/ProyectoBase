@@ -1,6 +1,6 @@
 # Propuesta individual
 
-**Nombre:** Escribe aquí tu nombres
+**Nombre:** Ricardo Andres Escobar Correa
 
 **Usuario de GitHub:** Escribe aquí tu usuario
 
