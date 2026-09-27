@@ -1,6 +1,6 @@
 # Propuesta individual
 
-**Nombre:** Escribe aquí tu nombres
+**Nombre:** Sebastian Huertas Aguilar
 
 **Usuario de GitHub:** Escribe aquí tu usuario
 
