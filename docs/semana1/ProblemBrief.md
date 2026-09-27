@@ -31,7 +31,7 @@ Además, el problema es de **alto impacto social, ambiental, económico y educat
 | Sistema de trueque de residuos reciclables entre empresas | Sebastian Huertas Aguilar | Se descartó como problema principal porque no aborda la dimensión social ni la urgencia humanitaria del terremoto. Se integró como componente logístico de la solución. |
 | Plataforma de donaciones económicas empresariales con certificación tributaria | Robinson Quintero Mesa | Se descartó como problema único porque es una consecuencia del problema mayor, no la causa raíz. Se integró como componente de la solución. |
 | Red de apoyo exclusiva para personas mayores sin pensión | Santiago Franco | Se descartó como problema único porque dejaba por fuera la dimensión ambiental, educativa y de trazabilidad de recursos. Se integró como parte del problema social. |
-| Sistema de monitoreo de contaminación de quebradas | Sebastián | Se descartó porque es un síntoma, no la causa raíz. La causa raíz es la falta de conexión entre residuos, recursos y necesidades. |
+| Sistema de monitoreo de contaminación de quebradas | Sebastian Huertas Aguilar | Se descartó porque es un síntoma, no la causa raíz. La causa raíz es la falta de conexión entre residuos, recursos y necesidades. |
 | Plataforma de investigación aplicada para universidades | Gustavo Arcila | Se descartó como problema único porque la desconexión academia-territorio es una dimensión del problema mayor, no el problema raíz. Se integró como componente educativo y de innovación de la solución. |
 
 ### Cómo tomamos la decisión
@@ -59,7 +59,7 @@ Un ecosistema territorial que conecta empresas, instituciones, iglesias, colegio
 | Integrante | Usuario GitHub | Rol | Responsable de |
 |---|---|---|---|
 | Ricardo Andrés Escobar Correa | `Andruw5` | Líder de problema social y usuario | Sección "Problema y evidencia" y "Usuario y actores" |
-| Sebastián | `sebastian` | Líder de flujo ambiental y logístico | Secciones "Flujo actual de valor" y "Fricciones identificadas" |
+| Sebastian Huertas Aguilar | `sebastian` | Líder de flujo ambiental y logístico | Secciones "Flujo actual de valor" y "Fricciones identificadas" |
 | Robinson Quintero Mesa | `robinsonquinteromesa` | Líder de oportunidad y blockchain | Secciones "Oportunidad e hipótesis", "Criterio de pertinencia" y "Supuestos y riesgos" |
 | Santiago Franco | `santiago-franco` | Líder de redes comunitarias y población vulnerable | Sección "Usuario y actores" (enfoque en población vulnerable) |
 | Gustavo Arcila | `gustavo-arcila` | Líder de educación, investigación aplicada y articulación academia-territorio | Sección "Flujo actual de valor" (enfoque educativo) y revisión de "Oportunidad e hipótesis" |
