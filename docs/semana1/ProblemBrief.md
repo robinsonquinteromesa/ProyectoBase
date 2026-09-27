@@ -8,7 +8,7 @@
 
 Las personas mayores sin pensión, las personas en situación de calle, las personas en condiciones de abandono, las familias vulnerables y los damnificados por el terremoto del 10 de agosto de 2026 en Colombia carecen de redes comunitarias de apoyo que les permitan acceder de forma estable a alimentos, vestuario y atención, mientras las empresas, colegios y universidades generan excedentes y conocimiento que se desperdician o no se articulan con las necesidades reales del territorio, y no existe un mecanismo confiable que conecte esos recursos con quienes los necesitan.
 
-**Propuesto por:** Ricardo Andrés Escobar Correa, enriquecido con los aportes de Sebastián (dimensión ambiental y logística), Robinson Quintero Mesa (dimensión de emergencia y trazabilidad), Santiago Franco (dimensión de redes comunitarias y población vulnerable) y Gustavo Arcila (dimensión educativa y de investigación aplicada).
+**Propuesto por:** Ricardo Andrés Escobar Correa, enriquecido con los aportes de Sebastian Huertas Aguilar (dimensión ambiental y logística), Robinson Quintero Mesa (dimensión de emergencia y trazabilidad), Santiago Franco (dimensión de redes comunitarias y población vulnerable) y Gustavo Arcila (dimensión educativa y de investigación aplicada).
 
 ### Por qué elegimos este
 
@@ -28,7 +28,7 @@ Además, el problema es de **alto impacto social, ambiental, económico y educat
 
 | Propuesta | Quién la propuso | Motivo del descarte |
 |---|---|---|
-| Sistema de trueque de residuos reciclables entre empresas | Sebastián | Se descartó como problema principal porque no aborda la dimensión social ni la urgencia humanitaria del terremoto. Se integró como componente logístico de la solución. |
+| Sistema de trueque de residuos reciclables entre empresas | Sebastian Huertas Aguilar | Se descartó como problema principal porque no aborda la dimensión social ni la urgencia humanitaria del terremoto. Se integró como componente logístico de la solución. |
 | Plataforma de donaciones económicas empresariales con certificación tributaria | Robinson Quintero Mesa | Se descartó como problema único porque es una consecuencia del problema mayor, no la causa raíz. Se integró como componente de la solución. |
 | Red de apoyo exclusiva para personas mayores sin pensión | Santiago Franco | Se descartó como problema único porque dejaba por fuera la dimensión ambiental, educativa y de trazabilidad de recursos. Se integró como parte del problema social. |
 | Sistema de monitoreo de contaminación de quebradas | Sebastián | Se descartó porque es un síntoma, no la causa raíz. La causa raíz es la falta de conexión entre residuos, recursos y necesidades. |
@@ -58,7 +58,7 @@ Un ecosistema territorial que conecta empresas, instituciones, iglesias, colegio
 
 | Integrante | Usuario GitHub | Rol | Responsable de |
 |---|---|---|---|
-| Ricardo Andrés Escobar Correa | `ricardo-escobar` | Líder de problema social y usuario | Sección "Problema y evidencia" y "Usuario y actores" |
+| Ricardo Andrés Escobar Correa | `Andruw5` | Líder de problema social y usuario | Sección "Problema y evidencia" y "Usuario y actores" |
 | Sebastián | `sebastian` | Líder de flujo ambiental y logístico | Secciones "Flujo actual de valor" y "Fricciones identificadas" |
 | Robinson Quintero Mesa | `robinsonquinteromesa` | Líder de oportunidad y blockchain | Secciones "Oportunidad e hipótesis", "Criterio de pertinencia" y "Supuestos y riesgos" |
 | Santiago Franco | `santiago-franco` | Líder de redes comunitarias y población vulnerable | Sección "Usuario y actores" (enfoque en población vulnerable) |
