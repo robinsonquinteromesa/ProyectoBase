@@ -2,7 +2,7 @@
 
 **Nombre:** Ricardo Andres Escobar Correa
 
-**Usuario de GitHub:** Escribe aquí tu usuario
+**Usuario de GitHub:** Andruw5
 
 ---
 
