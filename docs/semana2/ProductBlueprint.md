@@ -4,166 +4,154 @@
 
 > Historias elegidas entre las que propuso el equipo y criterio con que se priorizaron. Son las que pasan al backlog.
 
-El equipo reunió **35 historias de usuario** (7 por integrante) y las priorizó con tres criterios:
+El equipo reunió **35 historias de usuario** (7 por integrante) y priorizó **12** para el MVP, usando tres criterios:
 
-1. **Impacto directo en la crisis humanitaria del terremoto del 10 de agosto de 2026** (335 muertos, 486,917 damnificados, déficit humanitario del 52%).
-2. **Resolución de la causa raíz identificada en el Problem Brief** (falta de trazabilidad y de registro compartido).
-3. **Viabilidad técnica dentro del alcance del MVP** con Stellar.
+1. **Impacto directo en el problema raíz:** historias que sin ellas el sistema no funciona (registro de personas vulnerables, registro de salida de lotes, anclaje inalterable).
+2. **Habilitadoras de otras historias:** historias que desbloquean el resto de la cadena (registro previo, firma digital, identificador único).
+3. **Valor verificable para el usuario final:** historias que producen evidencia concreta para donantes, veedores o beneficiarios.
 
-Las **10 historias priorizadas** que pasan al backlog son:
+**Historias priorizadas para el MVP:**
 
-| # | Historia priorizada | Rol | Por qué entra al MVP |
+| # | Historia | Autor | Criterio |
 |---|---|---|---|
-| 1 | Registrar la salida de un lote hacia un grupo beneficiario | Centro de acopio | Punto crítico de trazabilidad (Gustavo Arcila) |
-| 2 | Registrarme como beneficiario con mis necesidades básicas | Damnificado / vulnerable | Sin registro previo, el sistema es ciego (Ricardo Escobar) |
-| 3 | Registrar la producción de compost a partir de residuos orgánicos | Huerta comunitaria | Cierra el ciclo ambiental demostrable (Sebastián) |
-| 4 | Recibir un certificado digital verificable de mi donación | Empresa donante | Incentivo económico clave (Robinson Quintero) |
-| 5 | Permitir que un tercero de confianza me registre en la red | Persona mayor sin pensión | Resuelve la invisibilidad inicial (Santiago Franco) |
-| 6 | Registrar la entrada de cada lote de donación recibida | Centro de acopio | Constancia pública de lo recibido (Gustavo Arcila) |
-| 7 | Consultar el estado de mi donación en tiempo real | Donante | Cierra el ciclo de confianza (Robinson Quintero) |
-| 8 | Ver el historial de atenciones de una persona vulnerable | Trabajador social | Evita duplicación y da continuidad (Santiago Franco) |
-| 9 | Registrar kilogramos de material reciclable recolectado | Colegio participante | Evidencia educativa y ambiental (Sebastián) |
-| 10 | Consultar impacto ambiental agregado por comuna | Ciudadano | Transparencia y participación (Sebastián) |
+| H1 | Registrar personas vulnerables con sus necesidades | Santiago | Impacto raíz |
+| H2 | Registrar salida de lote hacia beneficiario | Gustavo | Impacto raíz |
+| H3 | Anclar cada donación en registro público e inalterable | Robinson | Habilitadora técnica |
+| H4 | Firma digital de la donación al entregarla | Robinson | Habilitadora técnica |
+| H5 | Identificador único por lote en Stellar | Robinson | Habilitadora técnica |
+| H6 | Registrar entrada de lote en centro de acopio | Sebastián / Gustavo | Cadena logística |
+| H7 | Registrar salida de lote clasificado (reciclable, orgánico, textil) | Sebastián | Cadena ambiental |
+| H8 | Consultar tablero público de donaciones entregadas | Gustavo | Valor verificable |
+| H9 | Registrar atención a persona vulnerable (alimento, abrigo) | Ricardo | Valor social |
+| H10 | Reporte agregado de donaciones recibidas y entregadas | Gustavo | Transparencia |
+| H11 | Verificar cadena completa sin datos personales | Robinson | Auditoría |
+| H12 | Mapa de personas vulnerables atendidas y pendientes | Santiago | Coordinación territorial |
 
-El resto de historias quedan como **backlog futuro** (post-MVP).
-
----
+Las restantes quedan como **backlog deseable** para versiones posteriores.
 
 ## Propuesta de valor
 
 > Qué resultado obtiene el usuario y por qué elegiría esta solución. En qué se diferencia de cómo resuelve hoy. Conecta con el usuario del Problem Brief.
 
-**Horizonte Vivo convierte la buena voluntad dispersa en un sistema verificable de trazabilidad de recursos y atenciones.**
+Horizonte Vivo le entrega a cada actor una **prueba verificable de que su aporte llegó a destino**, sin depender de la palabra de nadie. Para el **donante empresarial**, significa que puede ver en un tablero público que su donación fue registrada como entregada, y obtener una certificación verificable para posibles beneficios tributarios. Para la **persona mayor sin pensión o en situación de calle**, significa dejar de ser invisible: tendrá un historial de atenciones que responde por ella incluso cuando nadie cercano puede hacerlo. Para la **fundación o iglesia**, significa poder demostrar transparencia ante donantes y cooperación internacional con reportes generados automáticamente desde el registro. Para el **veedor comunitario o periodista**, significa poder auditar entradas y salidas de un centro de acopio sin acceder a datos personales de beneficiarios.
 
-Para el **damnificado del terremoto** y la **persona vulnerable**, Horizonte Vivo ofrece algo que hoy no existe: un registro verificable que garantiza que será identificado y atendido, incluso si no tiene dirección fija, teléfono o documentos. Hoy su única opción es esperar que alguien se acuerde de él; con Horizonte Vivo, existe un historial público de que fue registrado y de qué ayuda le corresponde.
-
-Para la **empresa donante**, Horizonte Vivo reemplaza la incertidumbre por un certificado digital verificable de que su donación llegó a destino. Hoy dona y recibe una foto; con Horizonte Vivo, ve el recorrido completo y accede a beneficios tributarios cuando la ley lo permita.
-
-Para la **fundación, iglesia o centro de acopio**, Horizonte Vivo elimina la dependencia de la palabra personal. Hoy su transparencia depende de que les crean; con Horizonte Vivo, cada entrada y salida queda registrada de forma inalterable y auditable sin exponer datos personales.
-
-**Diferencial clave:** no es una base de datos más. Es un registro compartido donde ninguna parte puede modificar unilateralmente lo que ocurrió, lo que hace posible confiar entre actores que hoy no confían entre sí.
-
----
+Hoy todo esto se resuelve con WhatsApp, papel, fotos y buena voluntad, y el costo es que nadie puede verificar nada: ni el donante sabe si su aporte llegó, ni la persona vulnerable tiene cómo probar que fue atendida, ni la fundación tiene cómo defenderse de una sospecha. La diferencia es que Horizonte Vivo **no reemplaza la logística, le agrega trazabilidad inalterable**. El usuario no cambia su forma de donar ni de atender; cambia la posibilidad de probar lo que hizo.
 
 ## Flujo de usuario
 
 > Recorrido de la persona por la solución de principio a fin, roles y puntos de interacción. Diagrama o secuencia numerada.
 
-**Flujo principal — Donación empresarial en emergencia:**
+**Flujo principal (donación de alimentos en emergencia):**
 
-1. **Empresa donante** ingresa a la plataforma y registra un lote de donación (categoría, cantidad, fecha, ubicación). → *Interacción con Stellar: se firma una transacción de registro.*
-2. **Horizonte Vivo** notifica al centro de acopio más cercano y asigna un vehículo de recolección.
-3. **Conductor del vehículo** confirma la recogida en la app. → *Stellar: segunda transacción, vincula lote con vehículo.*
-4. **Centro de acopio** registra la entrada del lote, clasifica y actualiza el inventario. → *Stellar: tercera transacción, entrada verificable.*
-5. **Trabajador social / líder comunitario** consulta el inventario y asigna el lote a un grupo de beneficiarios registrados previamente.
-6. **Centro de acopio** registra la salida del lote hacia ese grupo. → *Stellar: cuarta transacción, cierra la trazabilidad.*
-7. **Beneficiario** recibe el lote; su historial se actualiza automáticamente.
-8. **Empresa donante** recibe notificación y certificado digital verificable. → *Stellar: consulta pública del historial del lote.*
+1. **Empresa donante** entra a la app y registra un lote: categoría (alimento), cantidad, fecha, destino previsto. → Genera identificador único.
+2. **Empresa** firma digitalmente el registro con su clave Stellar. → El lote queda anclado en la red.
+3. **Centro de acopio** recibe el lote y registra la entrada con el identificador único. → Se vincula al mismo hash.
+4. **Centro de acopio** clasifica y registra la salida hacia un grupo o familia beneficiaria.
+5. **Líder comunitario** registra la entrega final, vinculando el lote a un código anónimo de beneficiario.
+6. **Persona vulnerable** recibe el alimento y, si tiene tarjeta o código, puede verificar que fue registrada.
+7. **Donante** consulta el tablero público y ve: lote #X → entregado en fecha Y → destino Z (sin datos personales).
+8. **Veedor o periodista** consulta reporte agregado del centro de acopio: entradas vs. salidas, sin datos personales.
+9. **Fundación** genera reporte automático para sus donantes o cooperación internacional.
 
-**Flujo paralelo — Ciclo ambiental:**
-
-1. **Colegio** recolecta material reciclable y lo registra. → *Stellar: transacción de origen.*
-2. **Centro de acopio** clasifica y envía a **empresa transformadora**.
-3. **Residuos orgánicos** van a **huerta comunitaria**, que registra producción de compost. → *Stellar: transacción de transformación.*
-4. **Huerta** vincula el compost con alimentos producidos. → *Stellar: transacción de ciclo cerrado.*
-
-**Puntos de interacción:** app móvil (donante, conductor, trabajador social), panel web (centro de acopio, fundación, auditor), consulta pública (donante, veedor, ciudadano).
-
----
+**Roles y puntos de interacción:**
+- Empresa → interfaz web: registrar y firmar lote.
+- Centro de acopio → interfaz móvil: registrar entrada/salida.
+- Líder comunitario → interfaz móvil simplificada: registrar entrega.
+- Persona vulnerable → tarjeta física o SMS: verificar atención.
+- Donante/veedor → tablero público web: consultar estado.
 
 ## Alcance del MVP
 
 > Funcionalidad central separada de la deseable que queda fuera. Justificación de por qué el recorte sigue entregando valor.
 
-**Funcionalidad central del MVP (10 historias priorizadas):**
+**Dentro del MVP (funcionalidad central):**
+- Registro de lotes de donación (categoría, cantidad, fecha, origen).
+- Firma digital de la donación por parte de la empresa.
+- Anclaje en Stellar del hash de cada lote con identificador único.
+- Registro de entrada en centro de acopio.
+- Registro de salida hacia beneficiario o transformador.
+- Registro de personas vulnerables con código anónimo.
+- Registro de atención (alimento, abrigo, visita).
+- Tablero público de donaciones entregadas (sin datos personales).
+- Reporte agregado por centro de acopio.
+- Verificación de cadena completa por hash público.
 
-- Registro de donaciones por parte de empresas (entrada al sistema).
-- Registro de entradas y salidas en centros de acopio (trazabilidad core).
-- Registro de beneficiarios vulnerables (incluyendo registro por tercero).
-- Registro de atenciones a beneficiarios (historial verificable).
-- Certificado digital verificable de donación (incentivo económico).
-- Consulta pública del estado de una donación (transparencia).
-- Registro de recolección de reciclaje en colegios.
-- Registro de producción de compost en huertas.
-- Consulta agregada de impacto ambiental por comuna.
-- Consulta de historial de atenciones por trabajador social.
-
-**Queda fuera del MVP (deseable para fases posteriores):**
-
-- Manufactura textil y comercialización de indumentaria empresarial.
-- Comercialización de compost empacado a gran escala.
-- Integración con sistemas gubernamentales (UNGRD, Medellín Te Quiere).
+**Fuera del MVP (deseable):**
+- Mapa interactivo de huertas y puntos de acopio.
+- Certificación automática de beneficios tributarios.
+- Integración con sistemas de gobierno (UNGRD, INVIMA).
+- Módulo de manufactura textil y compost comercial.
+- App nativa móvil (el MVP puede ser web responsive).
+- Verificación por SMS en zonas sin internet.
 - Módulo de protección animal.
-- Gamificación y recompensas para jóvenes participantes.
-- Trazabilidad de biopolímeros.
-- App nativa para iOS/Android (el MVP será web responsive + PWA).
 
-**Justificación del recorte:** el MVP se enfoca en **cerrar el ciclo de trazabilidad de donaciones y atenciones**, que es la causa raíz del problema. Esto ya entrega valor tangible: una empresa puede donar con confianza, un damnificado puede ser registrado y atendido, y un centro de acopio puede demostrar transparencia. Las funcionalidades dejadas fuera amplían el impacto pero no son necesarias para demostrar que la hipótesis del Problem Brief funciona.
-
----
+**Justificación del recorte:** El MVP se enfoca en **una sola cadena completa** —donación de alimentos en emergencia, desde la empresa hasta la persona vulnerable— porque es la que responde al contexto del terremoto y al problema raíz del Problem Brief. Con esta cadena funcionando de extremo a extremo, el sistema ya entrega valor verificable: el donante ve impacto, el centro de acopio se protege, la persona vulnerable deja de ser invisible y el veedor puede auditar. Lo deseable (mapas, certificaciones, integraciones, otras cadenas) se puede construir encima sin rediseñar el núcleo.
 
 ## Lean Canvas
 
 > Lienzo de una página con el modelo del producto.
 
-![Lean Canvas Horizonte Vivo](docs/semana2/lean-canvas.png)
-
-**Enlace alternativo:** [Lean Canvas en Miro](https://miro.com/app/board/horizonte-vivo-lean-canvas)
-
 | Bloque | Contenido |
 |---|---|
-| **Problema** | Donaciones sin trazabilidad; personas vulnerables invisibles; centros de acopio sin evidencia; empresas sin incentivo; residuos aprovechables perdidos. |
-| **Segmentos de usuarios** | Empresas donantes; fundaciones e iglesias; centros de acopio; damnificados y personas vulnerables; colegios y huertas; auditores y veedores. |
-| **Propuesta de valor única** | Trazabilidad verificable e inalterable de cada donación, atención y material, desde el origen hasta el destino final. |
-| **Solución** | Plataforma web + PWA; registro en Stellar; certificados digitales; consulta pública; paneles de impacto. |
-| **Canales** | Alianzas con iglesias, fundaciones, colegios, universidades, empresas y gobiernos locales; redes comunitarias; GitHub y Apex para el piloto académico. |
-| **Métricas clave** | N° de donaciones registradas; % de trazabilidad completa (origen→destino); N° de beneficiarios registrados; kg de material aprovechado; N° de certificados emitidos; tiempo promedio de ciclo de donación. |
-| **Ventaja diferencial** | Registro compartido e inalterable entre actores que no confían entre sí; enfoque simultáneo en emergencia y operación diaria; integración con economía circular. |
-| **Estructura de costos** | Desarrollo y mantenimiento de plataforma; costos de transacción en Stellar (mínimos); logística de recolección; capacitación; operación de centros de acopio. |
-| **Fuentes de ingresos** | Certificaciones digitales para empresas; comercialización de compost y materiales reciclados; contratos de manufactura textil (post-MVP); donaciones económicas empresariales; posibles subsidios públicos y cooperación internacional. |
+| **Problema** | Donaciones sin trazabilidad; personas vulnerables invisibles; donantes sin evidencia de impacto; fundaciones sin transparencia demostrable. |
+| **Segmento de usuarios** | Empresas donantes; fundaciones e iglesias; centros de acopio; líderes comunitarios; personas mayores sin pensión, en calle o en abandono; damnificados del terremoto. |
+| **Propuesta de valor única** | Prueba verificable de que cada donación llegó a destino, sin exponer datos personales de los beneficiarios. |
+| **Solución** | App web/móvil + anclaje en Stellar + tablero público + tarjetas/códigos anónimos para beneficiarios. |
+| **Canales** | Alianzas con fundaciones, iglesias, colegios, universidades y empresas; redes comunitarias; GitHub como repositorio público. |
+| **Métricas clave** | % de donaciones registradas con trazabilidad completa; tiempo promedio entre donación y entrega verificada; número de personas vulnerables registradas; número de auditorías ciudadanas realizadas. |
+| **Ventaja diferencial** | No reemplaza la logística, la vuelve auditable. Registro inalterable + protección de datos + foco en emergencias + diseño para población vulnerable. |
+| **Estructura de costos** | Desarrollo y mantenimiento de la plataforma; comisiones de red Stellar (muy bajas); capacitación y acompañamiento comunitario; logística de tarjetas/códigos. |
+| **Fuentes de ingresos** | Convenios con empresas (RSE + certificación); convenios con fundaciones y cooperación internacional; servicios de reporte para auditoría; venta de compost y productos textiles (fase posterior). |
 
----
+**Enlace al Lean Canvas (imagen):** [Pendiente de subir a `/docs/semana2/lean-canvas.png`]
 
 ## Backlog priorizado (Kanban)
 
 > Enlace al tablero en GitHub Projects, construido con las historias priorizadas, en columnas y con criterios de aceptación por tarjeta.
 
-**🔗 Tablero Kanban:** [Horizonte Vivo — Backlog MVP](https://github.com/users/horizonte-vivo/projects/1)
+**Enlace al tablero:** `https://github.com/users/Andruw5/projects/[número]` (reemplazar con el enlace real del equipo)
 
-**Columnas del tablero:**
-- 📋 **Backlog** (todas las historias priorizadas)
-- 🎯 **Ready** (listas para desarrollar, con criterios de aceptación claros)
-- 🚧 **In Progress** (en desarrollo)
-- 👀 **Review** (en revisión)
-- ✅ **Done** (completadas)
+**Columnas:** Backlog → Ready → In Progress → In Review → Done
 
-**Ejemplo de criterios de aceptación por tarjeta:**
+**Criterios de aceptación por historia (ejemplos):**
 
-**Tarjeta #1: Registrar salida de lote hacia grupo beneficiario**
-- **Como** administrador de centro de acopio
-- **Quiero** registrar la salida de un lote hacia un grupo beneficiario
-- **Para** demostrar objetivamente que lo repartí
-- **Criterios de aceptación:**
-  - [ ] El formulario exige lote, grupo beneficiario y fecha.
-  - [ ] La transacción queda firmada en Stellar.
-  - [ ] El registro no puede editarse ni borrarse después.
-  - [ ] El donante recibe notificación automática.
-  - [ ] El veedor puede consultar el movimiento sin ver datos personales.
-
-**Tarjeta #2: Registrarme como beneficiario con mis necesidades básicas**
-- **Como** damnificado del terremoto
-- **Quiero** registrarme como beneficiario con mis necesidades básicas
-- **Para** que las ayudas lleguen a mí de forma priorizada
-- **Criterios de aceptación:**
-  - [ ] El formulario permite categorizar necesidades (alimento, vestuario, refugio, salud).
-  - [ ] El registro puede hacerse por un tercero de confianza.
-  - [ ] Los datos personales quedan protegidos y solo visibles para trabajadores sociales autorizados.
-  - [ ] El beneficiario recibe un identificador digital verificable.
-
-*(Y así sucesivamente para las 10 historias priorizadas.)*
-
----
+- **H1 (Registrar personas vulnerables):** Debe permitir crear ficha con código anónimo, necesidades básicas y sector. No debe mostrar nombre completo en vistas públicas.
+- **H2 (Registrar salida de lote):** Debe permitir elegir lote existente, tipo de beneficiario (grupo/familia/persona) y fecha. Debe generar hash y anclarlo.
+- **H3 (Anclar en Stellar):** Cada registro debe tener un `transaction_hash` verificable en un explorador de Stellar.
+- **H4 (Firma digital):** La empresa debe poder firmar con su clave; el sistema debe rechazar registros sin firma.
+- **H5 (Identificador único):** Cada lote debe tener un ID único e inmutable, consultable desde el tablero público.
+- **H6 (Registrar entrada en acopio):** Debe vincular el lote al hash original y registrar fecha/hora/responsable.
+- **H7 (Registrar salida clasificada):** Debe permitir seleccionar tipo (reciclable, orgánico, textil) y destino.
+- **H8 (Tablero público):** Debe mostrar estado del lote sin datos personales; debe ser accesible sin login.
+- **H9 (Registrar atención):** Debe permitir registrar tipo de atención, fecha y responsable; no debe exponer identidad.
+- **H10 (Reporte agregado):** Debe generar PDF/CSV con entradas vs. salidas por periodo.
+- **H11 (Verificar cadena sin datos personales):** Debe permitir consultar por hash y mostrar el recorrido completo.
+- **H12 (Mapa de personas vulnerables):** Debe mostrar sectores con conteos agregados, sin puntos individuales.
 
 ## Arquitectura inicial
 
 > Cómo se conectan las partes (interfaz, lógica, Stellar) y en qué punto entra la red. Diagrama simple.
+
+**Componentes:**
+
+1. **Interfaz de usuario (Frontend):**
+   - Web responsive para empresas, fundaciones y veedores.
+   - Interfaz móvil simplificada para centros de acopio y líderes comunitarios.
+   - Tarjeta física o SMS para personas vulnerables (sin app).
+
+2. **Lógica de negocio (Backend):**
+   - API REST que recibe registros de lotes, entradas, salidas y atenciones.
+   - Base de datos relacional para datos operativos (usuarios, roles, inventarios).
+   - Módulo de anonimización: separa identidad real del código público.
+
+3. **Capa Stellar:**
+   - Cada evento crítico (donación firmada, entrada, salida, entrega) genera un hash.
+   - El hash se ancla en Stellar mediante una transacción con `memo`.
+   - El `transaction_hash` se guarda en la base de datos y se expone en el tablero público.
+
+4. **Tablero público:**
+   - Consulta la base de datos para mostrar estado de lotes.
+   - Verifica el hash en Stellar para confirmar que no fue alterado.
+   - No muestra datos personales de beneficiarios.
+
+**Diagrama (secuencia):**
