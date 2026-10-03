@@ -2,7 +2,7 @@
 
 **Nombre:** Robinson Quintero Mesa
 
-**Usuario de GitHub:** robinson-quintero
+**Usuario de GitHub:** robinsonquinteromesa
 
 ---
 
