@@ -24,4 +24,4 @@
 
 ## La más importante y por qué
 
-La **número 1** es la más importante porque resuelve el problema de la **invisibilidad inicial**: una persona mayor sin pensión no puede registrarse a sí misma si no tiene acceso a tecnología o si desconfía de las instituciones. Permitir que un tercero de confianza (familiar, vecino, líder comunitario) la registre es la única forma de que entre al sistema. Sin este primer paso, ninguna otra historia de apoyo puede ejecutarse.
+La **número 1** es la más importante porque resuelve el problema de la **invisibilidad inicial**: una persona mayor sin pensión puede quedar fuera del sistema si no tiene acceso a tecnología, a un documento o a una red de apoyo cercana. Cuando un familiar o vecino puede registrarla, se activa la posibilidad de identificar su situación, priorizar la atención y conectar a la persona con instituciones y voluntarios que puedan ayudarla. Es la historia que abre la puerta al acompañamiento y evita que la vulnerabilidad pase desapercibida.
